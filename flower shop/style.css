@@ -1,0 +1,233 @@
+body {
+
+    font-family: Arial;
+
+    margin: 0;
+
+    background-color: #fff0f5;
+
+}
+
+
+
+nav {
+
+    background-color: #d63384;
+
+    padding: 15px;
+
+    text-align: center;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 15px;
+
+}
+
+
+nav a:hover {
+
+    color: yellow;
+
+}
+
+
+/* Header */
+
+header {
+
+    background-color: pink;
+
+    text-align: center;
+
+    padding: 50px;
+
+}
+
+
+header h1 {
+
+    font-size: 40px;
+
+}
+
+
+
+section {
+
+    background-color: white;
+
+    margin: 20px;
+
+    padding: 20px;
+
+}
+
+
+h2 {
+
+    color: #d63384;
+
+}
+
+
+button {
+
+    background-color: #d63384;
+
+    color: white;
+
+    padding: 10px 20px;
+
+    border: none;
+
+}
+
+
+button:hover {
+
+    background-color: #a61e62;
+
+}
+
+
+
+.flower {
+
+    background-color: #ffe4ec;
+
+    border: 1px solid pink;
+
+    padding: 15px;
+
+    margin: 15px;
+
+    text-align: center;
+
+}
+
+
+.flower img {
+
+    width: 200px;
+
+    height: 150px;
+
+}
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+}
+
+
+th {
+
+    background-color: #d63384;
+
+    color: white;
+
+}
+
+
+th, td {
+
+    border: 1px solid black;
+
+    padding: 10px;
+
+    text-align: center;
+
+}
+
+
+
+
+form {
+
+    background-color: #ffe4ec;
+
+    padding: 20px;
+
+}
+
+
+label {
+
+    display: block;
+
+    margin-top: 10px;
+
+}
+
+
+input[type="text"], select {
+
+    padding: 8px;
+
+    width: 90%;
+
+}
+
+
+input[type="submit"], input[type="reset"] {
+
+    background-color: #d63384;
+
+    color: white;
+
+    padding: 10px;
+
+    margin-top: 15px;
+
+    border: none;
+
+}
+
+
+
+
+footer {
+
+    background-color: #d63384;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 15px;
+
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    nav a {
+
+        display: block;
+
+        margin: 10px;
+
+    }
+
+    .flower img {
+
+        width: 90%;
+
+    }
+
+}
+
